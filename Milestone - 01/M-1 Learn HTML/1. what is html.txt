@@ -1,0 +1,1 @@
+HTML stands for HyperText Markup Language. It is the standard language used to create and structure content on the web. It defines the structure of a webpage by using a series of elements, tags, and attributes to organize text, images, links, and other multimedia elements.
