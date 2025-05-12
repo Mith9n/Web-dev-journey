@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+
+}
+
+/* common button section */
+.btn {
+    display: inline-flex;
+    padding: 15px 25px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+
+/*button color section   */
+.btn {
+
+    border: none;
+    border-radius: 5px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 560px;
+    line-height: normal;
+
+}
+.text-sec button{
+ margin-right: 60px;
+}
+
+
+.btn:hover {
+    background: lightblue;
+}
+
+/* /*end button scetion   */
+
+/* --------------------------------------------- */
+
+/* header sections */
+
+
+header {
+    background: rgba(229, 84, 115, 0.10);
+
+
+}
+
+.container {
+
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.banner {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner .banner-text * {
+    max-width: 525px;
+    margin-top: 32px;
+
+}
+
+.banner .banner-text h1 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.banner .banner-text p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 30px;
+    width: 634px;
+
+}
+
+.banner .banner-text img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* section -01 */
+.section-heading {
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+.section-heading h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 10px;
+
+}
+
+.section-heading p {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 16px;
+    margin-top: 20px;
+
+}
+
+/* section-1 img */
+.section_1 {
+
+    padding: 100px 0;
+}
+
+.flower-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: end;
+}
+
+.flower-section .flower .flower-img {
+    border-radius: 300px 300px 0px 0px;
+    padding: 30px 25px 0;
+    display: flex;
+    align-items: end;
+
+}
+
+.flower-section .flower .flower-img img {
+    width: 100px;
+}
+
+.flower-section .flower .pink {
+    background: rgba(167, 33, 98, 0.15);
+
+}
+
+.flower-section .flower .blue {
+
+    background: rgba(5, 151, 160, 0.15);
+
+}
+
+.flower-section .flower .green {
+    background: rgba(71, 125, 17, 0.15);
+
+}
+
+.flower-section .flower p {
+
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 460px;
+    line-height: 35px;
+    /* 145.833% */
+    text-decoration-line: underline;
+}
+
+/* section-2 */
+
+.icon-section {
+
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 65px 15px;
+    text-align: center;
+
+}
+
+.icon-section .icon img {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+}
+
+.icon-section .icon img p {
+    color: rgba(39, 39, 39, 0.80);
+
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+/* section-3 */
+.section-3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 45px;
+    border-radius: 5px;
+    background: rgba(229, 84, 115, 0.05);
+
+}
+
+.container-main {
+    display: flex;
+    justify-content: space-around;
+    padding: 75px 0;
+    margin-bottom: 0px;
+}
+
+.text-or-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    padding-top: 25px 50px;
+    margin-bottom: 25px;
+    text-align: center;
+
+
+
+}
+
+.text-sec h3 {
+
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 100px;
+
+}
+
+.color {
+    color: #E55473;
+
+}
+
+.text-sec{
+
+    margin-top: 150px;
+    margin-left: 150px;
+
+}
+
+.text-sec h3 p {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 100px;
+
+}
+
+.img-sce {
+    max-width: 300px;
+    height: 400px;
+
+}
+
+/* section-4 */
+.section-4 .container .instagram {
+    text-align: center;
+    margin-bottom: 25px;
+    padding: 75px;
+
+}
+
+.section-4 .container .instagram h3 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 45px;
+}
+
+.section-4 .container .instagram h3 p {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 100px;
+
+}
+
+.photos-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* section-5 */
+.section-5 {
+    margin: 128px;
+
+}
+
+.section-text {
+    text-align: center;
+
+}
+
+.news-latter {
+    background-image: url('Flower_Asset/Rectangle\ 9.png');
+    padding: 122px 0;
+}
+
+/* importent part for me */
+.section-5 form {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+
+}
+
+.section-5 form input {
+    flex-grow: 1;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    outline: 1px solid pink;
+
+}
+
+/* section-6 or footer section */
+.section-6 {
+    background: rgba(229, 84, 115, 0.10);
+    color:black;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    margin: 45px 25px;
+    padding: 25px 20px;
+}
+
+
+.section-6 h3 .one {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.section-6 h3 .two {
+    color: black;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.section-6 p {
+    color: black;
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
